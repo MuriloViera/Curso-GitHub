@@ -1,0 +1,41 @@
+Iniciar repositorio
+git init
+
+git remote add origin https://github.com/BergamoLa/apptask.git
+
+Adicionar ao repositorio um arquivo que foi adicionado/removido/alterado
+git add "Nome do arquivo"
+
+Adicionar ao repositorio qualquer arquivo que foi adicionado/removido/alterado
+git add .
+
+Clonar repositorio de um repositorio remoto
+git clone "url do repositorio remoto"
+
+Salvar alterações e deixar um comentario -m
+git commit -m "salvar"
+
+Salvar alterações 
+git commit -a
+
+Enviar alterações para o repositorio remoto
+git push 
+
+Puxar alterações do repositorio remoto
+git pull ou git fetch -> o Git pull ele puxa o que tiver em um repositorio remoto e muda o que tiver no seu local, o fetch
+ele pega o que tiver no remoto, compara com o local, e o que tiver no remoto que nao tiver no local ele coloca.
+
+Ver as alterações e se tem como fazer commit
+git status
+
+Ver os commits feitos
+git log ou shortlog (o shortlog é mais resumido)
+
+Ver a diferença dos arquivos alterados antes de comitar
+git diff
+
+Retornar o arquivo para como ele tava no commit mais recente
+git checkout NOMEDOARQUIVO
+
+Remove um commit, mas pra eu remover o commit 2 por exemplo, tenho que por o codigo do commit anterior a ele.
+git reset CODIGODOCOMMIT
