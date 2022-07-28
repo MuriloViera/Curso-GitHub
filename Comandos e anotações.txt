@@ -19,7 +19,7 @@ Salvar alterações
 git commit -a
 
 Enviar alterações para o repositorio remoto
-git push 
+git push NOMEDOREPOSITORIO BRANCH
 
 Puxar alterações do repositorio remoto
 git pull ou git fetch -> o Git pull ele puxa o que tiver em um repositorio remoto e muda o que tiver no seu local, o fetch
