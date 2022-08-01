@@ -45,3 +45,9 @@ git checkout NOMEDABRANCH
 
 Criar nova branch 
 git checkout -b NOMEDABRANCH
+
+Deletar branch
+git branch -d NOMEDABRANCH
+
+Ver as branchs existentes
+git branch
