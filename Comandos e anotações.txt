@@ -39,3 +39,9 @@ git checkout NOMEDOARQUIVO
 
 Remove um commit, mas pra eu remover o commit 2 por exemplo, tenho que por o codigo do commit anterior a ele.
 git reset CODIGODOCOMMIT
+
+Trocar de branch
+git checkout NOMEDABRANCH
+
+Criar nova branch 
+git checkout -b NOMEDABRANCH
