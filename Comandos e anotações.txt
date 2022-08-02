@@ -62,3 +62,22 @@ git checkout --track NOMEDORESPOSITORIO/NOMEDABRANCH
 
 Se existir uma local, mas nao remota, é so eu na local dar um 
 git push -u NOMEDOREPOSITORIO NOMEDABRANCH //Ele automaticamente cria a branch no remoto e trackeia com a sua local
+
+Criar o gitignore, ai la dentro eu coloco as extensões que nao quero que pegue, ou o caminho do arquivo ou o nome dele
+touch .gitignore
+
+* ->Todos os arquivos
+# ->Comentário
+/ ->Caminho
+
+Criar o git stash, que guarda as MODIFICAÇÕES APENAS que eu nao quero comitar ainda
+git stash
+
+Quiser pegar as modificações que eu nao queria modificar de volta do stash
+git stash apply
+
+Mostrar a lista do que tiver no git stash
+git stash list
+
+Limpar o que tiver no stash
+git stash clear
