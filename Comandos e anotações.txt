@@ -51,3 +51,9 @@ git branch -d NOMEDABRANCH
 
 Ver as branchs existentes
 git branch
+
+Se nao existir localmente a branch, mas sim remotamente, e eu quiser criar uma local que trackeie uma remota
+git checkout --track NOMEDORESPOSITORIO/NOMEDABRANCH
+
+Se existir uma local, mas nao remota, é so eu na local dar um 
+git push -u NOMEDOREPOSITORIO NOMEDABRANCH //Ele automaticamente cria a branch no remoto e trackeia com a sua local
