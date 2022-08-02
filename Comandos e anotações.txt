@@ -1,7 +1,8 @@
 Iniciar repositorio
 git init
 
-git remote add origin https://github.com/BergamoLa/apptask.git
+Linkar com um repositorio remoto
+git remote add origin https://github.com/BergamoLa/apptask.git -> O origin é um nome default que eu dei pro repositorio remoto
 
 Adicionar ao repositorio um arquivo que foi adicionado/removido/alterado
 git add "Nome do arquivo"
@@ -28,7 +29,6 @@ git pull NOMEREPOSITORIO NOMEBRANCH se eu nao colocar nada e dar so um git pull 
 
 Juntar duas branchs
 git merge
-
 
 Ver as alterações e se tem como fazer commit
 git status
@@ -81,3 +81,11 @@ git stash list
 
 Limpar o que tiver no stash
 git stash clear
+
+Se eu quiser criar um atalho para um comando eu uso(Não recomendado)
+git config --global alias.s status (Aqui to criando um atalho chamado s que faz a função do comando status)
+
+Se eu quiser versionar meu repositorio com tags(ai ele pode ser baixado dps)
+git tag -a 1.0.0 -m 'Primeira versao' (Numero qualquer)
+
+	Pra subir git push --tags
