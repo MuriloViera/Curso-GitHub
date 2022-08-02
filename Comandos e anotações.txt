@@ -25,6 +25,8 @@ Puxar alterações do repositorio remoto
 git pull ou git fetch -> o Git pull ele puxa o que tiver em um repositorio remoto e muda o que tiver no seu local, o fetch
 ele pega o que tiver no remoto, compara com o local, e o que tiver no remoto que nao tiver no local ele coloca.
 
+git pull NOMEREPOSITORIO NOMEBRANCH se eu nao colocar nada e dar so um git pull ele vai puxar do repositorio que eu to da branch que eu to
+
 Ver as alterações e se tem como fazer commit
 git status
 
