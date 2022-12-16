@@ -92,3 +92,8 @@ Se eu quiser versionar meu repositorio com tags(ai ele pode ser baixado dps)
 git tag -a 1.0.0 -m 'Primeira versao' (Numero qualquer)
 
 	Pra subir git push --tags
+Ver todas as branchs existentes
+git branch -a
+
+Comparar branches
+git diff branchlocal branchremota(ex: origin/master)
